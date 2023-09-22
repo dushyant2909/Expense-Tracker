@@ -1,0 +1,49 @@
+.expense-item__date{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.expense-item__description{    
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+.deleteclick{
+    /* background-color: blue; */
+    display: inline;
+    /* display: inline-block; */
+}
+.expense-item h2{
+    color: darkblue;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin: 0px 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.expense-item__price{
+    font-size: 20px;;
+    font-weight:bold;
+    color: white;
+    background-color: #30336b;
+    border: 1px solid white;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+@media screen and (max-width:400px)
+{
+    .expense-item{
+        padding: 3px 5px;
+    }
+    .expense-item__date{
+        font-size: 15px;
+    }
+    .expense-item h2{
+        font-size: 20px;
+    }
+    .expense-item__price{
+        font-size:11px;
+    }
+}

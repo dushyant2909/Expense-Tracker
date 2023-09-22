@@ -1,0 +1,18 @@
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    border: 1px solid black;
+    height: 20px;
+}
+.add-expense-btn{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    position: relative;
+    left: 90px;
+    box-sizing: border-box;
+    padding:1px 10px;
+    background-color:rgb(216, 224, 224);
+}
